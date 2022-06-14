@@ -1,0 +1,113 @@
+.heading_register {
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: #0085E6;
+}
+
+.reg-table {
+    box-shadow: 0 0 10px #9ad5ff;
+    ;
+    background-color: white;
+    position: absolute;
+    width: 1200px;
+    height: 720px;
+    left: 250px;
+    top: 0;
+    border: 2px white solid;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 200px;
+}
+
+.username {
+    position: absolute;
+    width: 530px;
+    height: 20px;
+    left: 305px;
+    top: 218px;
+    padding: 1em 16px 1em 1em;
+    background: #F5FBFF;
+    border-radius: 80px;
+}
+
+.username:hover {
+    border: #0085E5 3px solid;
+}
+
+.register-password {
+    position: absolute;
+    width: 530px;
+    height: 20px;
+    left: 305px;
+    top: 278px;
+    padding: 1em 16px 1em 1em;
+    background: #F5FBFF;
+    border-radius: 80px;
+}
+
+.register-password:hover {
+    border: #0085E5 3px solid;
+}
+
+.re-register-password {
+    position: absolute;
+    width: 530px;
+    height: 20px;
+    left: 305px;
+    top: 338px;
+    padding: 1em 16px 1em 1em;
+    background: #F5FBFF;
+    border-radius: 80px;
+}
+
+.re-register-password:hover {
+    border: #0085E5 3px solid;
+}
+
+.reg-btn {
+    position: absolute;
+    width: 170px;
+    height: 54px;
+    left: 497px;
+    top: 422px;
+    color: white;
+    background: #0085E6;
+    border-radius: 80px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+}
+
+.dhar {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 10px;
+    width: 300px;
+    height: 20px;
+    left: 406px;
+    top: 436px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.login {
+    position: absolute;
+    margin-top: 40px;
+    width: 459px;
+    height: 24px;
+    left: 510px;
+    top: 470px;
+    background-color: transparent;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0085E6;
+}

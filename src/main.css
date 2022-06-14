@@ -1,0 +1,358 @@
+.main-txt {
+    position: absolute;
+    width: 477px;
+    height: 118px;
+    left: 80px;
+    top: 331px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 59px;
+
+    color: #000000;
+}
+
+.main-password {
+    position: absolute;
+    width: 530px;
+    height: 70px;
+    left: 104px;
+    top: 514px;
+    /* border:1px solid black; */
+    background: #F5FBFF;
+    border-radius: 80px;
+}
+
+.main-btn {
+
+    position: absolute;
+    width: 170px;
+    height: 54px;
+    left: 457px;
+    top: 525px;
+    color: white;
+    background: #0085E6;
+    border-radius: 80px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+}
+
+.main-password:hover {
+    border: 3px solid #0085E6;
+    /* here configure as your needs */
+    color: white;
+}
+
+.rectangle {
+    position: absolute;
+    width: 747px;
+    height: 600px;
+    left: 1383px;
+    top: 140px;
+
+    background: #E0F2FF;
+    border-radius: 1000px 0px 0px 1000px;
+}
+
+.rectangle-txt {
+    position: absolute;
+    width: 268px;
+    height: 49px;
+    left: 256px;
+    top: 20px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 49px;
+    /* identical to box height */
+
+
+    color: #242E35;
+}
+
+img {
+    position: absolute;
+    top: 100px;
+    left: 250px;
+    width: 450px;
+    height: 500px;
+    border: 0px;
+    background-image: url("../src/medicine.png");
+}
+
+.benifits {
+    position: absolute;
+    width: 546px;
+    height: 59px;
+    left: 600px;
+    top: 850px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 59px;
+    /* identical to box height */
+
+
+    color: #0085E6;
+}
+
+.osu {
+    position: absolute;
+    width: 546px;
+    height: 59px;
+    left: 830px;
+    top: 850px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 59px;
+    /* identical to box height */
+
+
+    color: black;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33%;
+    padding: 10px;
+    height: 300px;
+    /* border: 1px solid black; */
+    /* Should be removed. Only for demonstration */
+}
+
+.column:hover {
+    border: blue;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.point-b {
+    text-align: center;
+    color: #0085E6;
+    font-size: 20px;
+}
+
+.text {
+    position: absolute;
+    /* left: 11px; */
+    text-align: center;
+    width: 300px;
+    font-size: 20px;
+    color: black;
+}
+
+.Who {
+    position: absolute;
+    width: 546px;
+    height: 59px;
+    left: 700px;
+    top: 1350px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 59px;
+    /* identical to box height */
+
+
+    color: #0085E6;
+}
+
+.wr {
+    position: absolute;
+    width: 546px;
+    height: 0px;
+    left: 830px;
+    top: 1350px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    /* line-height: 59px; */
+    /* identical to box height */
+
+
+    color: black;
+}
+
+.p {
+    position: absolute;
+    width: 804px;
+    height: 0px;
+    left: 318px;
+    top: 0px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    text-align: center;
+
+    color: #242E35;
+}
+
+.divpapa {
+    left: 50px;
+    position: absolute;
+    top: 1000px;
+}
+
+.divs {
+    text-align: center;
+    width: 150px;
+    margin-left: 450px;
+    /* padding-left: 300px; */
+    display: inline-block;
+}
+
+.point {
+    /* position: absolute; */
+
+    color: #0085E6;
+}
+
+.divwho {
+    margin: 0%;
+    position: absolute;
+    top: 1500px;
+    text-align: center;
+}
+
+.divp {
+    text-align: center;
+    width: 150px;
+    margin-left: 350px;
+    /* padding-left: 300px; */
+    display: inline-block;
+}
+
+.contact-page {
+    position: absolute;
+    top: 1800px;
+}
+
+.benifitsdiv {
+    /* position: absolute; */
+    top: 1800px;
+    left: 120px;
+}
+
+.firstname {
+    position: absolute;
+    width: 430px;
+    height: 64px;
+    left: 170px;
+    top: 130px;
+
+    background: #F5FBFF;
+    border-radius: 8px;
+}
+
+.lastname {
+    position: absolute;
+    width: 430px;
+    height: 64px;
+    left: 640px;
+    top: 130px;
+    /* identical to box height */
+    background: #F5FBFF;
+    /* border-radius: 8px; */
+
+    color: #242E35;
+}
+
+.phone {
+    position: absolute;
+    width: 430px;
+    height: 64px;
+    left: 171px;
+    top: 200px;
+
+    background: #F5FBFF;
+    border-radius: 8px;
+}
+
+.selectsts {
+    position: absolute;
+    width: 430px;
+    height: 64px;
+    left: 641px;
+    top: 200px;
+
+    background: #F5FBFF;
+    border-radius: 8px
+}
+
+.message {
+    position: absolute;
+    width: 900px;
+    height: 200px;
+    left: 171px;
+    top: 300px;
+
+    background: #F5FBFF;
+    border-radius: 8px;
+}
+
+.btnsend {
+    position: absolute;
+    width: 170px;
+    height: 54px;
+    left: 457px;
+    top: 525px;
+    color: white;
+    background: #0085E6;
+    border-radius: 80px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+}
+
+.firstname:hover {
+    border: #0085E5 3px solid;
+}
+
+.lastname:hover {
+    border: #0085E5 3px solid;
+}
+
+.phone:hover {
+    border: #0085E5 3px solid;
+}
+
+.selectsts:hover {
+    border: #0085E5 3px solid;
+}
+
+.message:hover {
+    border: #0085E5 3px solid;
+}
