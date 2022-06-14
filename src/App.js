@@ -13,7 +13,7 @@ function App() {
     <Route path="/register" component={Register}></Route>
     <Route path="/login" component={Login}></Route>
 
-    <Redirect from="/" to="/login"/>
+    <Redirect from="/" to="/Register"/>
       </Switch>
 
     </div>

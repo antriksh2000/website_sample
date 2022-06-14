@@ -85,7 +85,7 @@ input {
     width: 300px;
     height: 20px;
     left: 406px;
-    top: 306px;
+    top: 316px;
 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: normal;
@@ -103,7 +103,7 @@ input {
     margin-top: 40px;
     width: 359px;
     height: 24px;
-    left: 510px;
+    left: 560px;
     top: 338px;
     background-color: transparent;
     font-style: normal;
@@ -170,4 +170,11 @@ button {
 
 
     color: #0085E6;
+}
+a{
+
+    text-decoration: none;
+    position:fixed;
+    text-align: center;
+    padding: 12px;
 }

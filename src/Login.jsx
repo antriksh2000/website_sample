@@ -1,6 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Login.css'
-
+import Register from './Register' 
 export default function Login() {
   
     return (
@@ -12,10 +13,11 @@ export default function Login() {
         <h2 className='X'>X</h2>
         <h2 className='loginusername'>Rajveer Singh</h2>
         <input className='password' placeholder='  Enter your Password '/> 
-        <button className='btn'> Continue</button>
+        <Link className='btn' to="./main"> Continue</Link>
         <button className='forget-password'>Forget Password </button>
         <h3 className='dha'>Dont have account? </h3>
-        <button className='register'>Register Here</button>
+        <Link className='register' to="./register" >Register Here</Link>
+        
     </div>
 </div>
 
